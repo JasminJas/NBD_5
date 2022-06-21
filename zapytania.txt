@@ -1,0 +1,23 @@
+5.1a curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Joanna", "lastname": "Kopka", "isPJATKStudent": true, "age": 22}' http://172.17.0.2:8098/buckets/s25666/keys/joanna
+5.1b curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Wojciech", "lastname": "Kowalski", "isPJATKStudent": false, "age": 43}' http://172.17.0.2:8098/buckets/s25666/keys/wojciech
+5.1c curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Katarzyna", "lastname": "Raciszek", "isPJATKStudent": true, "age": 21}' http://172.17.0.2:8098/buckets/s25666/keys/katarzyna
+5.1d curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Mariusz", "lastname": "Nowodworski", "isPJATKStudent": false, "age": 27}' http://172.17.0.2:8098/buckets/s25666/keys/mariusz
+5.1e curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Hiacynt", "lastname": "Rzepicki", "isPJATKStudent": true, "age": 29}' http://172.17.0.2:8098/buckets/s25666/keys/hiacynt
+
+5.2 curl -i -XGET  http://172.17.0.2:8098/buckets/s25666/keys/hiacynt
+
+5.3 curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Joanna", "lastname": "Kopka", "isPJATKStudent": true, "age": 22, "studentnumber": "s11111"}' http://172.17.0.2:8098/buckets/s25666/keys/joanna
+
+5.4 curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Mariusz", "lastname": "Nowodworski", "isPJATKStudent": false}' http://172.17.0.2:8098/buckets/s25666/keys/mariusz
+
+5.5 curl -i -XPUT -H "Content-Type: application/json" -d '{"firstname": "Katarzyna", "lastname": "Raciszek", "isPJATKStudent": true, "age": 24}' http://172.17.0.2:8098/buckets/s25666/keys/katarzyna
+
+5.6 curl -i -XDELETE http://172.17.0.2:8098/buckets/s25666/keys/katarzyna
+
+5.7 curl -i -XGET  http://172.17.0.2:8098/buckets/s25666/keys/noentry
+
+5.8 curl -i -XPOST -H "Content-Type: application/json" -d '{"isSingleValue": true}' http://172.17.0.2:8098/buckets/s25666/keys
+
+5.9 curl -i -XGET http://172.17.0.2:8098/buckets/s25666/keys/2a9WSH3XzVpsyEKDJjMJZ32HVrg
+
+5.10 curl -i -XDELETE http://172.17.0.2:8098/buckets/s25666/keys/2a9WSH3XzVpsyEKDJjMJZ32HVrg
