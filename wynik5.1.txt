@@ -1,0 +1,35 @@
+5.1a 
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 21 Jun 2022 09:34:16 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.1b HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 21 Jun 2022 09:39:05 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.1c HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 21 Jun 2022 09:39:49 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.1d HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 21 Jun 2022 09:41:17 GMT
+Content-Type: application/json
+Content-Length: 0
+
+5.1e HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 21 Jun 2022 09:41:38 GMT
+Content-Type: application/json
+Content-Length: 0

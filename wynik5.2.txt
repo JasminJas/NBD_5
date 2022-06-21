@@ -1,0 +1,12 @@
+5.2 P/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvlc48dQMyGbKYEpkzGNlCOJTu8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25666>; rel="up"
+Last-Modified: Tue, 21 Jun 2022 09:41:38 GMT
+ETag: "5PIMcI10iCNTI7zE2S5Ej0"
+Date: Tue, 21 Jun 2022 09:43:14 GMT
+Content-Type: application/json
+Content-Length: 83
+
+{"firstname": "Hiacynt", "lastname": "Rzepicki", "isPJATKStudent": true, "age": 29}
